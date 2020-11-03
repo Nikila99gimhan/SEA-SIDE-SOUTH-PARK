@@ -6,7 +6,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     backface-visibility: hidden;
-    animation: slide 10s linear infinite 0s;
+    animation: slide 40s linear infinite 0s;
     animation-timing-function: ease-in-out;
     background-image: url('img/01.jpg');
 
@@ -19,17 +19,112 @@
     0%{
         background-image: url('img/01.jpg');
     }
-    25%{
+    10%{
         background-image: url('img/02.jpg');
     }
-    50%{
+    20%{
         background-image: url('img/03.jpg');
     }
-    75%{
+    30%{
         background-image: url('img/04.jpg');
     }
-    100%{
+    40%{
         background-image: url('img/05.jpg');
     }
+    50%{
+        background-image: url('img/06.jpg');
+    }
+    60%{
+        background-image: url('img/07.jpg');
+    }
+    70%{
+        background-image: url('img/08.jpg');
+    }
+    80%{
+        background-image: url('img/09.jpg');
+    }
+    90%{
+        background-image: url('img/10.jpg');
+    }
+    100%{
+        background-image: url('img/01.jpg');
+    }
+}
+
+header
+{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+
+}
+
+.navi
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+
+}
+
+.navi li
+{
+    display: inline-block;
+}
+
+
+
+
+.navi li a
+{
+     color:rgb(255, 255, 255);
+     text-decoration: none;
+     padding: 5px 20px;
+     font-family:Arial, Helvetica, sans-serif;
+     font-size: 14px;
+     filter: brightness(200%);
     
+     
+}
+
+.navi li a:hover
+{
+    background: #fff;
+    color: #333;
+
+}
+
+.welcom-text
+{
+    position:absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+
+.welcom-text h1
+{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: poppin;
+}
+
+.button
+{
+  background-color: #635753;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s
+}
+
+.button :hover 
+{
+    opacity: 1;
 }
