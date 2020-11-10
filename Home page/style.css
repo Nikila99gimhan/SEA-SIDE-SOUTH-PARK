@@ -55,6 +55,7 @@ header
 {
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    position: relative;
     
 }
 
@@ -99,7 +100,7 @@ header
     position:absolute;
     width: 800px;
     height: 300px;
-    margin: 20% 20%;
+    margin: 15% 20% ;
     text-align: center;
     font-family: newfont;
 }
@@ -112,6 +113,12 @@ header
     font-size: 60px;
     font-family: poppin;
     text-align: center;
+}
+
+.welcome-logo
+{
+    width: 200px;
+    height: 170px;
 }
 
 .book-btn
@@ -151,11 +158,12 @@ book-link:hover
 
 
 
-<!--INTRO-->
+
+
 
 .intro
 {
-    background-color: yellow;
+    background-color:  #dbdbdb;
     width: 100%;
     height: 380px;
 }
@@ -185,5 +193,3 @@ img
     margin-left: 80px;
     margin-right: 80px;
 }
-
-
