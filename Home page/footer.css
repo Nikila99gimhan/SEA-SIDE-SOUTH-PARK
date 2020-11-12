@@ -123,4 +123,23 @@ footer h2
     text-transform: uppercase;
 
 }
+.footer-bottom-tex
+{
+    text-align: center;
+    background: #000;
+    line-height: 75px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+    .md-mb-30
+    {
+        margin-bottom: 30px;
+
+    }
+    .footer-top
+    {
+        padding: 50px 0;
+    }
+}
 

@@ -149,9 +149,21 @@
     .image_gallery
     {
         grid-template-areas: 
-    'img-1 img-2 img-3 img-3'
-    'img-1 img-4 img-5 img-6'
-    'img-7 img-7 img-8 img-6';
+    'img-1 img-1 img-2 img-2'
+    'img-1 img-1 img-3 img-3'
+    'img-4 img-4 img-5 img-5'
+    'img-6 img-7 img-7 img-7'
+    'img-8 img-8 img-8 img-8';
     }
+    .image_gallery a
+    {
+        height: 20rem;
+
+    }
+    .img-1
+    {
+        min-height: 41.5rem;
+    }
+    
 }
 
