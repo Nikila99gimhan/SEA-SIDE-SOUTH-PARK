@@ -159,3 +159,101 @@ Footer social icons
 .social-network a {
   background-color: #000000;
 }
+
+
+body{
+  font-family: 'Segoe UI';
+  color: rgb(236, 208, 164);
+  
+  }
+  
+  .wd{
+  
+  text-align: justify;
+  margin-top: 40px;
+  
+  width: 1200px;
+  height: 500px;
+  background-color: rgb(221, 193, 118);
+  opacity: 0.9;
+  padding: 55px;
+  
+  }
+  
+  
+  h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 100px;
+  color:grey
+  
+  }
+  
+  
+  
+  h4{
+  text-align: center;
+  color:grey;
+  font-weight: normal;
+  }
+  
+  
+  h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 40px auto;
+  }
+  
+  
+  
+  .opt form, input[type="button"]{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 14px auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  }
+  
+  form, input[type="button"]:hover{background-color: teal;}
+  form{
+  background-color: black;
+  }
+  /*navbar css*/
+  header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  }
+  
+  header li {
+  float: left;
+  }
+  
+  header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  
+  header li a:hover {
+  background-color: #111;
+  }
+  
+  .deluxe{
+  justify-items: center;
+  text-align: center;
+  width: 1200px;
+  margin:auto;
+  margin-top: 50px;
+  }
+  
+  .room-img{width:350px; height:260px;}
+  img{vertical-align:middle; border-style:none;}
+  *{box-sizing:border-box; font-family:'Roboto',sans-serif;}
