@@ -163,7 +163,7 @@ Footer social icons
 
 body{
   font-family: 'Segoe UI';
-  color: rgb(236, 208, 164);
+  color: rgb(158, 178, 221);
   
   }
   
@@ -173,8 +173,8 @@ body{
   margin-top: 40px;
   
   width: 1200px;
-  height: 500px;
-  background-color: rgb(221, 193, 118);
+  height: 300px;
+  background-color: rgb(134, 128, 182);
   opacity: 0.9;
   padding: 55px;
   
@@ -208,7 +208,7 @@ body{
   
   
   .opt form, input[type="button"]{
-  background-color: black;
+  background-color: rgb(25, 80, 230);
   color: white;
   padding: 10px;
   margin: 14px auto;
@@ -254,6 +254,4 @@ body{
   margin-top: 50px;
   }
   
-  .room-img{width:350px; height:260px;}
-  img{vertical-align:middle; border-style:none;}
-  *{box-sizing:border-box; font-family:'Roboto',sans-serif;}
+  
