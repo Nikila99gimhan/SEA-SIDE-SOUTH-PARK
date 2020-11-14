@@ -165,12 +165,12 @@ Footer social icons
 	font-family: lobster;
 }
 .main{
-	position: relative;
+	position: absolute;
 	height: 100%;
 	width: 100%;
 }
 .main h1{
-	position: absolute;
+	position: relative;
 	height: auto;
 	width: 550px;
 	left: 50%;
@@ -182,3 +182,14 @@ Footer social icons
 	font-weight: 650;
 	letter-spacing: 1.5px;
 	background:rgb(0, 0, 0);
+}
+.main p{
+	position: relative;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	font-weight: 500;
+	font-size: 1.5em;
+	letter-spacing: 1px;
+	color: #777;
+}
