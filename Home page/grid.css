@@ -97,50 +97,50 @@
 {
     grid-area: img-1;
     min-height: 51.5rem;
-    background-image: url("/grid/1.jpg");
+    background-image: url("grid/1.jpg");
 
 }
 .img-2
 {
     grid-area: img-2;
-    background-image: url("/grid/2.jpg");
+    background-image: url("grid/2.jpg");
 
 }
 .img-3
 {
     grid-area: img-3;
-    background-image: url("/grid/3.jpg");
+    background-image: url("grid/3.jpg");
 
 }
 .img-4
 {
     grid-area: img-4;
-    background-image: url("/grid/4.jpg");
+    background-image: url("grid/4.jpg");
 
 }
 .img-5
 {
     grid-area: img-5;
-    background-image: url("/grid/5.jpg");
+    background-image: url("grid/5.jpg");
 
 }
 .img-6
 {
     grid-area: img-6;
     min-height: 51.5rem;
-    background-image: url("/grid/6.jpg");
+    background-image: url("grid/6.jpg");
 
 }
 .img-7
 {
     grid-area: img-7;
-    background-image: url("/grid/7.jpg");
+    background-image: url("grid/7.jpg");
  
 }
 .img-8
 {
     grid-area: img-8;
-    background-image: url("/grid/8.jpg");
+    background-image: url("grid/8.jpg");
 
 }
 
