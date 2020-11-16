@@ -7,11 +7,13 @@
     box-sizing: border-box;
 }
 
+
+
 .grid
 {
     width: 100%;
     height: 100vh;
-    background-color: #eee;
+    background-color: rgb(255, 255, 255, .6);
     display: flex;
 }
 
@@ -164,6 +166,18 @@
     {
         min-height: 41.5rem;
     }
+    
+}
+
+.uperText
+{
+    padding-top: 40px;
+    text-align: center;
+    text-transform: inherit;
+    font-family: Poppings;
+    font-style: oblique;
+    text-shadow: inherit;
+    text-decoration: khaki;
     
 }
 
