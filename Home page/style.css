@@ -204,6 +204,16 @@ img
 
 /*why south park*/
 
+
+
+.intro-midile
+
+{
+    width: 100%;
+    height:80px;
+    background-color:#ffffff;
+}
+
 .deckimg
 {
 	width: 390px;
