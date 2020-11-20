@@ -1,4 +1,4 @@
-.slide
+	.slide
 {
     width: 100%;
     height: 100vh;
@@ -10,7 +10,7 @@
     animation-timing-function: ease-in-out;
     background-image: url('img/01.jpg');
 
-
+		
 
 }
 
@@ -203,6 +203,12 @@ img
 
 
 /*why south park*/
+
+.deckimg
+{
+	width: 390px;
+	height: 200px;
+}
 
 
 
