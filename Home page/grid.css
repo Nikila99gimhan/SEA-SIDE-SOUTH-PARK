@@ -169,9 +169,10 @@
     
 }
 
-.uperText
+.animate__animated
 {
-    padding-top: 40px;
+    padding-top: 60px;
+    padding-bottom: 10px;
     text-align: center;
     text-transform: inherit;
     font-family: Poppings;

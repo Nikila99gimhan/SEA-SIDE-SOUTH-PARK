@@ -172,7 +172,10 @@ book-link:hover
 {
     text-align: center;
     padding-top: 80px;
-    font-family: 'Roboto',sans-serif;
+    font-family: Poppings;
+    font-style: oblique;
+    text-shadow: inherit;
+    text-decoration: khaki;
 }
 
 .inlogo
@@ -192,6 +195,7 @@ img
     margin-top: 15px;
     margin-left: 80px;
     margin-right: 80px;
+    font-family: Poppings;
 }
 
 .intro-mid
