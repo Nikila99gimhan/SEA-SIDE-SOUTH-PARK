@@ -166,7 +166,9 @@ body{
   opacity: 0;
 }
 
-
+.content h2{
+  text-align: center;
+}
 
 
 
