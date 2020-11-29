@@ -100,9 +100,22 @@ body{
 }
 
 
+/*content gallary*/
+.container{
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
-
-
+.card{
+  position: relative;
+  left: -6%;
+  width: 300px;
+  height: 370px;
+  transition: 0.3s ease-out;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+}
 
 
 
