@@ -170,6 +170,14 @@ body{
   text-align: center;
 }
 
+.card:hover .content p{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.card:hover{
+  box-shadow: 0 0 5em rgba(0, 0, 0, 0.4);
+}
 
 
 
@@ -178,7 +186,8 @@ body{
 
 
 
-  
+
+
 
 
 /*footer*/
