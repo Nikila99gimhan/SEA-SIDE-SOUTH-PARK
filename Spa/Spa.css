@@ -149,7 +149,12 @@ body{
   color: white;
 }
 
-
+.card:hover .content{
+  width: 100%;
+  height: 75%;
+  left: 0;
+  bottom: 0;
+}
 
 
 
