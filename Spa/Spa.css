@@ -156,7 +156,15 @@ body{
   bottom: 0;
 }
 
-
+.content p{
+  margin: 10px 0 0;
+  padding: 1em 1em;
+  transform: translateY(2em);
+  line-height: 1.3em;
+  transition: 0.3s;
+  text-align: justify;
+  opacity: 0;
+}
 
 
 
