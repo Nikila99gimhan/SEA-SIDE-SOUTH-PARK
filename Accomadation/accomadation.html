@@ -12,9 +12,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <title>web</title>
-</head>  
-<body>
-
+  
+</head>
+  <body>
     <div class="topnav">
       <!-- hotel logo -->
         <a class="navbar-brand" >
@@ -34,82 +34,107 @@
 
     <!-- check 1 2 3 4-->
     
-        
+    <div class="heading">
+    <h1 text-align="center"><b>ACCOMADATION</b></h1>
+  </div>
+  
+  <div class="slideshow">
+    <div class="image1">
+      <img src="room 1.jpg" style="width: 100%">
+    </div>
+    <div class="image1">
+      <img src="room 2.jpg" style="width: 100%">
+    </div>
+    <div class="image1">
+      <img src="room 3.jpg" style="width: 100%">
+    </div>
+    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+  </div>
+  <script>
+    var slideIndex = [1,1];
+    var slideId = ["image1"]
+    showSlides(1, 0);
+    showSlides(1, 1);
+    
+    function plusSlides(n, no) {
+      showSlides(slideIndex[no] += n, no);
+    }
+    
+    function showSlides(n, no) {
+      var i;
+      var x = document.getElementsByClassName(slideId[no]);
+      if (n > x.length) {slideIndex[no] = 1}    
+      if (n < 1) {slideIndex[no] = x.length}
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";  
+      }
+      x[slideIndex[no]-1].style.display = "block";  
+    }
+    </script>
+  
+  
+  <div class="about-section">
+    <h1>Experience The Five Star Spa</h1>
+    <p>Enjoy luxurious massages in our Ayurvedic pavilion!</p>
+    <p>
+      Awaken your inner spirit with a wide variety of 
+      signature Ayurvedic therapies that are designed to rejuvenate and replenish your body and soul.</p>
+  </div>
+  
+  <h1 style="text-align:center; padding: 4%;"><b>WHY SHOULD YOU CHOOSE US?</b></h1>
+  
+  
+  <!--create content gallary-->
+  <div class="container">
+    <div class="card">
+      <div class="imgbox">
+        <img src="sp14.jpg">
+      </div>
+      <div class="content">
+        <h2>DELUXE ROOM</h2>
+        <p>Deluxe rooms 
+        </p>
+      </div>
+    </div>
+  
+    <div class="card">
+      <div class="imgbox">
+        <img src="sp12.jpg">
+      </div>
+      <div class="content">
+        <h2>FACIAL</h2>
+        <p>Several facial treatments are available, some featuring aromatherapy and pressure-point techniques. They include the Elemis S.O.S. 
+          Purifying Facial for Oily, Problem and Congested Skin, Elemis Men’s Skin IQ Facial, Urban Men’s Cleanse Facial, and much more.
+        </p>
+      </div>
+    </div>
+  
+    <div class="card">
+      <div class="imgbox">
+        <img src="sp15.jpg">
+      </div>
+      <div class="content">
+        <h2>MASSAGE</h2>
+        <p>Stimulating and healing massage treatments combine Eastern and Western methods. 
+          Choose from among several massage options, including aroma stone therapy, deep tissue, Swedish, sports, and reflexology. 
+          You may also have your massage in the privacy of your room or select our Alfresco Massage and listen to the sounds of the ocean.
+        </p>
+      </div>
+    </div>
+  
+  
+  
+  
+    </div>        
     
         <!-- check 1 2 3 4-->
     
     
         
     
-        <div class="wd container-fluid">
-            <h1 align="center">Accomodation</h1>
-            <h4 align="center">Rooms of Sea Side South Park Hotel are spacious and clean , brings you the ultimate experiance of an sea side viewed luxury accomadation. So visit! stay! and experiance the best stay at Sea Side South park hotel. </h4>
-            <h2 align="center"><div class="opt">
-                <form action="" method="POST"></form>
-                    <input type="button" value="BOOK YOUR STAY">
-                </div>
-            </h2>
-        </div> 
-    
-        <title>premium room</title>
         
-    
-        
-        
-          <div class="premium">
 
-        
-        <p><h2>Premium Rooms</h2></p>
-        <p><h4>For couples visiting Sri Lanka on honeymoon, hotels on the coast have always been firm favourites. Elegant spaces with all the indulgences you expect, our exclusive Premium rooms are specially created havens of private luxury for those celebrating love and life. 
-          Open up the shades on the picture windows and watch the ocean from your bedroom.</h4></p>
-        </div>
-        <div class="container">
-          <div class="gallery">
-            <img src="sea side2.jpg">
-        
-          </div>
-          <div class="gallery">
-            <img src="sea side3.jpg">
-            
-          </div>
-          <div class="gallery">
-            <img src="sea side7.jpg">
-            
-          </div>
-          <div class="gallery">
-            <img src="sea side6.jpg">
-            
-          </div>
-          <div class="gallery">
-            <img src="sea side5.jpg">
-            
-          </div>
-          <div class="gallery">
-            <img src="sea side4.jpg">
-            
-          </div>
-          
-            
-    
-          
-        </div>
-
-            
-          
-    
-                                
-    
-          
-      
-      
-    
-    
-    
-    
-    
-      
-
-                            
 
       
     <!-- Footer-->
