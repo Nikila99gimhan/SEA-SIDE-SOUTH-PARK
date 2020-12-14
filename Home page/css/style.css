@@ -1,76 +1,5 @@
-/* Hotera - Hotel and Restaurant HTML Template  */
 
-/*********** TABLE OF CONTENTS **************
 
-1. Fonts
-2. Reset
-3. Global
-4. Main Header / Style One / Style Two
-5. Mobile Menu
-6. Main Slider / Banner Carousel
-7. About Section
-8. Facts Section
-9. Rooms Section 01
-11. Offers Section 01
-12. Featured Section
-13. Video Section
-14. Testimonials Section
-15. News Section
-16. Main Footer
-17. Filters Section / Style One  / Style Two / Style Three / Style Four
-18. Featured Section 02
-19. Rooms Section 02
-20. Offers Section 02
-21. Why Us Section
-22. Testimonials Section 02
-23. News Section 02
-24. Contact Section
-25. Featured Section 03
-26. Rooms Section 03
-27. Offers Section 03
-28. Why Us Section 02
-29. Gallery Section
-30. Testimonials Section 03
-31. News Section 02 / Alternate
-32. Featured Section 04
-33. Rooms Section 04
-34. Facts Section 02
-35. News Section 03
-36. Featured Section 05
-37. Fluid Section / Alternate
-38. Rooms Grid 
-39. Rooms List
-40. Rooms Gallery
-41. Single Room / Room Details
-42. History Section
-43. Team Section
-44. Packages Section
-45. Package Single Page
-46. Events Section
-47. Event Details
-48. Gallery Default
-49. Gallery Masonry
-50. Restaurant
-51. Spa And Wellness
-52. Blog 03 Column Grid 
-53. Blog Sidebar
-54. Sidebar Page
-55. Content Side
-56. Sidebar Side
-57. Sidebar Widgets
-58. News Post Details
-59. Comments Area
-60. Comment Forms
-
- ***/
-
-/*** 
-
-====================================================================
-			Fonts
-====================================================================
-
- ***/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yeseva+One&display=swap');
 
@@ -91,13 +20,7 @@
 @import url('hover.css');
 @import url('custom-animate.css');
 
-/*** 
 
-====================================================================
-	Reset
-====================================================================
-
- ***/
 
 *{
 	margin:0px;
@@ -108,13 +31,7 @@
 	line-height: inherit;
 }
 
-/*** 
 
-====================================================================
-	Global Settings
-====================================================================
-
- ***/
 
 body {
 	
@@ -485,13 +402,7 @@ img{
 	line-height: inherit;
 }
 
-/*** 
 
-====================================================================
-	Scroll To Top style
-====================================================================
-
-***/
 
 .scroll-to-top{
 	position:fixed;
@@ -874,13 +785,7 @@ img{
 }
 
 
-/*** 
 
-====================================================================
-	Header Style One / Alternate
-====================================================================
-
-***/
 
 .header-style-one.alternate{
 	position: fixed;
@@ -923,13 +828,7 @@ img{
 	padding-top: 25px;
 }
 
-/*** 
 
-====================================================================
-	Header Style One / Alternate-Two
-====================================================================
-
-***/
 
 .header-style-one.alternate-two{
 	position: fixed;
@@ -972,13 +871,7 @@ img{
 	padding-right: 0px;
 }
 
-/*** 
 
-====================================================================
-				Sticky Header
-====================================================================
-
-***/
 
 .sticky-header{
     position: fixed;
@@ -1050,13 +943,7 @@ img{
 	opacity:1;
 }
 
-/*** 
 
-====================================================================
-	Search Popup
-====================================================================
-
-***/
 
 .search-popup{
 	position:fixed;
@@ -1239,13 +1126,7 @@ body.search-visible{
 
 
 
-/*** 
 
-====================================================================
-			Mobile Menu
-====================================================================
-
-***/
 
 .nav-outer .mobile-nav-toggler{
 	position: relative;
