@@ -169,4 +169,95 @@ Footer social icons
 
 
 /*mid section style*/
+element.style {
+  padding-bottom: 10px;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+user agent stylesheet
+div {
+  display: block;
+}
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  line-height: 1.42857143;
+  color: rgb(177, 115, 44);
+  background-color: rgb(226, 160, 116);
+}
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(29, 29, 28, 0);
+}
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.book{
+  width: 80%;
+  height:80%;
+  background-image: linear-gradient(
+      105deg,
+      rgba(255,255,255,0.9)0%,
+      rgba(255,255,255,0.9)50%,
+  transparent 55%
+  ),
+  url("https://tse1.mm.bing.net/th?id=OIP.KYjLesV9kHzXPc1sNyFOfQHaEf&pid=Api&P=0&w=309&h=188");
+  background-size:100%;
+ 
+  background-position:none;
+  background-repeat:no-repeat;
+  border-radius:5px;
+  
+  box-shadow:0 1.5rem 4 rem rgba(0,0,0,0.2);
+  }
+
+  .btn, 
+.btn:link,
+btn:visited{
+text-transform:uppercase;
+text-decoration:none;
+padding:1.5rem 4 rem;
+display:inline-block;
+border-radius:20rem;
+transition:all 0.2s;
+position:relative;
+font-size:25px;
+border:none;
+cursor:pointer;
+margin-top:5rem;
+background-color:#9b5a10;
+color:rgb(243, 239, 239);
+}
+
+.btn:hover{
+transform:treanlateY(-3px);
+box-shadow:0 1rem 2rem rgba(0,0,0,0.2);
+}
+
+.btn:active,
+.btn:focus{
+outline:none;
+transform:translateY(-1px);
+box-shadow:0 0.5rem 2rem rgba(0,0,0,0.2);
+}
+
+
+
+
 
