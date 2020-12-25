@@ -209,16 +209,16 @@ html {
 }
 
 .book{
-  width: 80%;
-  height:80%;
+  width: 50%;
+  height:50%;
   background-image: linear-gradient(
       105deg,
       rgba(255,255,255,0.9)0%,
       rgba(255,255,255,0.9)50%,
-  transparent 55%
+  transparent 50%
   ),
   url("https://tse1.mm.bing.net/th?id=OIP.KYjLesV9kHzXPc1sNyFOfQHaEf&pid=Api&P=0&w=309&h=188");
-  background-size:100%;
+  background-size:90%;
  
   background-position:none;
   background-repeat:no-repeat;
