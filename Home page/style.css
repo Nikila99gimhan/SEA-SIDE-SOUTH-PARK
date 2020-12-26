@@ -1,0 +1,243 @@
+	.slide
+{
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slide 40s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('img/01.jpg');
+
+		
+
+}
+
+@keyframes slide
+{
+    0%{
+        background-image: url('img/01.jpg');
+    }
+    10%{
+        background-image: url('img/02.jpg');
+    }
+    20%{
+        background-image: url('img/03.jpg');
+    }
+    30%{
+        background-image: url('img/04.jpg');
+    }
+    40%{
+        background-image: url('img/05.jpg');
+    }
+    50%{
+        background-image: url('img/06.jpg');
+    }
+    60%{
+        background-image: url('img/07.jpg');
+    }
+    70%{
+        background-image: url('img/08.jpg');
+    }
+    80%{
+        background-image: url('img/09.jpg');
+    }
+    90%{
+        background-image: url('img/10.jpg');
+    }
+    100%{
+        background-image: url('img/01.jpg');
+    }
+}
+
+header
+{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    position: relative;
+    
+}
+
+.navi
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+
+}
+
+.navi li
+{
+    display: inline-block;
+}
+
+
+
+
+.navi li a
+{
+     color:rgb(255, 255, 255);
+     text-decoration: none;
+     padding: 5px 20px;
+     font-family:Arial, Helvetica, sans-serif;
+     font-size: 14px;
+     filter: brightness(200%);
+     
+    
+     
+}
+
+.navi li a:hover
+{
+    
+    color: #333;
+
+}
+
+.welcom-text
+{
+    position:absolute;
+    width: 800px;
+    height: 300px;
+    margin: 12% 25% ;
+    text-align: center;
+    font-family: newfont;
+}
+
+.welcom-text h1
+{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: poppin;
+    text-align: center;
+}
+
+.welcome-logo
+{
+    width: 200px;
+    height: 170px;
+}
+
+.book-btn
+{
+  background-color:transparent;
+  border:2px solid #F5F5F5;
+  color: rgb(255, 255, 255);
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s
+}
+.book-link
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-decoration: solid;
+    text-shadow: #F5F5F5;
+}
+
+.book-btn:hover  
+{
+    background-color: #a38a4d;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    
+}
+
+book-link:hover
+{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* <!--INTRO-->*/
+
+.intro
+{
+    background-color:  #dbdbdb;
+    width: 100%;
+    height: 380px;
+}
+
+.head
+{
+    text-align: center;
+    padding-top: 80px;
+    font-family: Poppings;
+    font-style: oblique;
+    text-shadow: inherit;
+    text-decoration: khaki;
+	font-size: 46px;
+}
+
+.inlogo
+{
+    text-align: center
+}
+
+img
+{
+    width: 100px;
+    height: 100px;
+}
+
+.para{
+    text-align: center;
+    font-size: medium;
+    margin-top: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: Poppings;
+	font-size: 16px;
+}
+
+.intro-mid-final
+{
+    width: 100%;
+    height: 200px;
+    background-color:  #dbdbdb;
+    background: linear-gradient(#F5F5F5,black);
+    background-image: ;
+	
+	
+}
+
+
+/*why south park*/
+
+
+
+.intro-midile
+
+{
+    width: 100%;
+    height:80px;
+    background-color:#ffffff;
+}
+
+.deckimg
+{
+	width: 390px;
+	height: 200px;
+}
+
+.offer-class
+{
+	width: 300px;
+	height: 300px;
+}
+
+
+
+
+
+

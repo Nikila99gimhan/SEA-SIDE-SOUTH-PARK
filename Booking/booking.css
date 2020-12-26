@@ -1,0 +1,263 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:black;
+    overflow: hidden;
+    width: 100%;
+    float: right;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:none;
+    color:rgb(188, 219, 195);
+  }
+
+/* logo in the navigation*/
+.logo-image{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    margin-top: -7px;
+    float: left;
+}
+
+
+
+footer {
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+  background: linear-gradient(59deg, #565657, #16222A);
+  color:  #ddd;
+  margin-top:100px;
+  bottom: 0;
+  position: fixed;
+  width: 100%; 
+  height: 200px;
+}
+
+.f-p{
+  margin-top: 50px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+/*Social Icons*/
+
+ Footer social icons 
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+Footer social icons 
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #000000;
+}
+
+
+
+
+
+
+
+
+
+/*booking section style*/
+element.style {
+  padding-bottom: 5px;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+user agent stylesheet
+div {
+  display: block;
+}
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  line-height: 1.42857143;
+  color: rgb(177, 115, 44);
+  background-color: rgb(226, 160, 116);
+}
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(29, 29, 28, 0);
+}
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.book{
+  width: 80%;
+  height:80%;
+  background-image: linear-gradient(
+      105deg,
+      rgba(255,255,255,0.9)0%,
+      rgba(255,255,255,0.9)50%,
+  transparent 55%
+  ),
+  url("https://tse1.mm.bing.net/th?id=OIP.KYjLesV9kHzXPc1sNyFOfQHaEf&pid=Api&P=0&w=309&h=188");
+  background-size:100%;
+ 
+  background-position:none;
+  background-repeat:no-repeat;
+  border-radius:5px;
+  
+  box-shadow:0 1.5rem 4 rem rgba(0,0,0,0.2);
+  }
+
+  .btn, 
+.btn:link,
+btn:visited{
+text-transform:uppercase;
+text-decoration:none;
+padding:1.5rem 4 rem;
+display:inline-block;
+border-radius:20rem;
+transition:all 0.2s;
+position:relative;
+font-size:25px;
+border:none;
+cursor:pointer;
+margin-top:5rem;
+background-color:#9b5a10;
+color:rgb(243, 239, 239);
+}
+
+.btn:hover{
+transform:treanlateY(-3px);
+box-shadow:0 1rem 2rem rgba(0,0,0,0.2);
+}
+
+.btn:active,
+.btn:focus{
+outline:none;
+transform:translateY(-1px);
+box-shadow:0 0.5rem 2rem rgba(0,0,0,0.2);
+}
+
+
+
+
+
