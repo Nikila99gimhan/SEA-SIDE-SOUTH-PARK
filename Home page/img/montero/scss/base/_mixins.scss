@@ -1,6 +1,0 @@
-@mixin placeholder ($css) {
-  ::-webkit-input-placeholder {$css}
-  :-moz-placeholder           {$css}
-  ::-moz-placeholder          {$css}
-  :-ms-input-placeholder      {$css}
-}
