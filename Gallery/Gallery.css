@@ -46,7 +46,11 @@ footer {
   color:  #ddd;
   margin-top:100px;
   bottom: 0;
+
+
+
   position:fixed;
+
   width: 100%; 
   height: 200px;
 }
@@ -80,7 +84,7 @@ footer a:hover {
 
 /*Social Icons*/
 
- Footer social icons 
+
 
 ul.social-network {
   list-style: none;
@@ -95,7 +99,7 @@ ul.social-network li {
 }
 
 
-Footer social icons 
+
 
 .social-network a.icoFacebook:hover {
   background-color: #3B5998;
@@ -159,6 +163,7 @@ Footer social icons
 .social-network a {
   background-color: #000000;
 }
+
 *{
 	margin:0;
 	padding:0;
