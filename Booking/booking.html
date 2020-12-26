@@ -109,6 +109,60 @@
     </div>
     </form>
     </form>
+
+
+    <script type="text/javascript">
+      function validateForm() {
+      $( ".has-error" ).removeClass("has-error");
+     if (isEmpty(document.getElementById('data_2').value.trim())) {
+      alert('First name is required!');
+      document.getElementById('data_2').parentNode.className += " has-error";
+      return false;
+     }
+     if (isEmpty(document.getElementById('data_3').value.trim())) {
+      alert('Last name is required!');
+      document.getElementById('data_3').parentNode.className += " has-error";
+      return false;
+     }
+     if (isEmpty(document.getElementById('data_4').value.trim())) {
+      alert('Phone is required!');
+      document.getElementById('data_4').parentNode.className += " has-error";
+      return false;
+     }
+     if (isEmpty(document.getElementById('data_5').value.trim())) {
+      alert('Email is required!');
+      document.getElementById('data_5').parentNode.className += " has-error";
+      return false;
+     }
+     if (!validateEmail(document.getElementById('data_5').value.trim())) {
+      alert('Email must be a valid email address!');
+      document.getElementById('data_5').parentNode.className += " has-error";
+      return false;
+     }
+     if (isEmpty(document.getElementById('data_6').value.trim())) {
+      alert('Arrival date is required!');
+      document.getElementById('data_6').parentNode.className += " has-error";
+      return false;
+     }
+     if (isEmpty(document.getElementById('data_7').value.trim())) {
+      alert('Departure date is required!');
+      document.getElementById('data_7').parentNode.className += " has-error";
+      return false;
+     }
+     if (isEmpty(document.getElementById('data_8').value.trim())) {
+      alert('Number of adults is required!');
+      document.getElementById('data_8').parentNode.className += " has-error";
+      return false;
+     }
+     return true;
+      }
+      function isEmpty(str) { return (str.length === 0 || !str.trim()); }
+      function validateEmail(email) {
+      var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
+      return isEmpty(email) || re.test(email);
+     }
+     </script>
+     
     </div>
 
     
