@@ -159,3 +159,34 @@ Footer social icons
 .social-network a {
   background-color: #000000;
 }
+
+@charset "utf-8";
+/* contact us CSS Document */
+
+body {
+	
+background-color: rgb(207, 221, 207);
+background-image: url("nikila.jpg");
+margin: 0;
+padding-right: 100;
+box-sizing: content-box;
+font-family:'Poppins', sans-serif;
+
+}
+
+
+h1
+{
+	font-size: 32px;
+	color: rgb(233, 225, 225);
+	text-align: center;
+}
+
+.pmain
+{
+	font-size: 16px;
+	color: rgb(252, 248, 248);
+	padding-left: 0.5%;
+	text-align: center;
+	
+}
