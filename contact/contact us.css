@@ -258,3 +258,45 @@ h3
 	color: black;
 	
 }
+.contactForm
+{
+position:absolute;
+display: inline-block;
+left: 60%;
+top: 25%;
+width:30%;
+padding:40px;
+background-color: rgb(123, 178, 241);
+}
+
+
+.txtB
+{
+position:relative;
+background-color: #D3D3D3;
+	border: #D3D3D3;
+padding-left: 10px;
+width:250px;
+height: 30px;
+margin-top:5px;
+} 
+
+.txtC
+{
+position:relative;
+background-color: #D3D3D3;
+border: #D3D3D3;
+padding-left: 10px;
+width:250px;
+height: 60px;
+margin-top:5px;
+} 
+
+.sendBT
+{
+	background-color: #D3D3D3;
+	border: #D3D3D3;
+	width: 60px;
+	height: 30px;
+
+}
