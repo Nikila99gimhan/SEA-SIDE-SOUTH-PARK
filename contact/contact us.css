@@ -218,3 +218,27 @@ h2
 	margin-left:10%;
 
 }
+.addr
+{
+	font-size: 16px;
+	padding-left: 150px;
+	margin-left:10%;
+	
+}
+
+h3
+{
+	font-size: 18px;
+	color: Black;
+	padding-left: 150px;
+	margin-left:10%;
+}
+
+.phn
+{
+	font-size: 16px;
+	padding-left: 150px;
+	color: Black;
+	margin-left:10%;
+	
+}
