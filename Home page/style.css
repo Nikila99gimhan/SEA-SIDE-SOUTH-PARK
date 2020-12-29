@@ -1,4 +1,4 @@
-.slide
+	.slide
 {
     width: 100%;
     height: 100vh;
@@ -10,7 +10,7 @@
     animation-timing-function: ease-in-out;
     background-image: url('img/01.jpg');
 
-
+		
 
 }
 
@@ -159,7 +159,7 @@ book-link:hover
 
 
 
-
+/* <!--INTRO-->*/
 
 .intro
 {
@@ -172,7 +172,11 @@ book-link:hover
 {
     text-align: center;
     padding-top: 80px;
-    font-family: 'Roboto',sans-serif;
+    font-family: Poppings;
+    font-style: oblique;
+    text-shadow: inherit;
+    text-decoration: khaki;
+	font-size: 46px;
 }
 
 .inlogo
@@ -192,4 +196,48 @@ img
     margin-top: 15px;
     margin-left: 80px;
     margin-right: 80px;
+    font-family: Poppings;
+	font-size: 16px;
 }
+
+.intro-mid-final
+{
+    width: 100%;
+    height: 200px;
+    background-color:  #dbdbdb;
+    background: linear-gradient(#F5F5F5,black);
+    background-image: ;
+	
+	
+}
+
+
+/*why south park*/
+
+
+
+.intro-midile
+
+{
+    width: 100%;
+    height:80px;
+    background-color:#ffffff;
+}
+
+.deckimg
+{
+	width: 390px;
+	height: 200px;
+}
+
+.offer-class
+{
+	width: 300px;
+	height: 300px;
+}
+
+
+
+
+
+
