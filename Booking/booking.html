@@ -36,8 +36,9 @@
 
 
     <!-- check 1 2 3 4-->
-
+<!--booking form-->
     <div>
+      <form method="post" action="https://www.100forms.com/s/ffc8866b-868d-4069-8484-2f91eaa432b2"  onSubmit="return validateForm();">
      <center>
         <form>
             <fieldset>
@@ -94,10 +95,57 @@
             </fieldset>
         </form>
    </center>
-
-
-
-    </div>
+  </div>
+   <!--java script form validation--> 
+   <script type="text/javascript">
+    function validateForm() {
+    $( ".has-error" ).removeClass("has-error");
+   if (isEmpty(document.getElementById('name1').value.trim())) {
+    alert('Name is required!');
+    document.getElementById('name1').parentNode.className += " has-error";
+    return false;
+   }
+   if (isEmpty(document.getElementById('phone1').value.trim())) {
+    alert('phone number is required!');
+    document.getElementById('phone1').parentNode.className += " has-error";
+    return false;
+   }
+   if (isEmpty(document.getElementById('email1').value.trim())) {
+    alert('Email is required!');
+    document.getElementById('email1').parentNode.className += " has-error";
+    return false;
+   }
+   if (isEmpty(document.getElementById('date1').value.trim())) {
+    alert('From date is required!');
+    document.getElementById('date1').parentNode.className += " has-error";
+    return false;
+   }
+   if (!validateEmail(document.getElementById('data_5').value.trim())) {
+    alert('Email must be a valid email address!');
+    document.getElementById('data_5').parentNode.className += " has-error";
+    return false;
+   }
+   if (isEmpty(document.getElementById('todate1').value.trim())) {
+    alert('To date is required!');
+    document.getElementById('todate1').parentNode.className += " has-error";
+    return false;
+   }
+   
+   }
+   if (isEmpty(document.getElementById('adult1').value.trim())) {
+    alert('Number of adults is required!');
+    document.getElementById('adult1').parentNode.className += " has-error";
+    return false;
+   }
+   return true;
+    
+    function isEmpty(str) { return (str.length === 0 || !str.trim()); }
+    function validateEmail(email) {
+    var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
+    return isEmpty(email) || re.test(email);
+   }
+   </script>
+    
 
     <div class="mid-100"></div>
 
