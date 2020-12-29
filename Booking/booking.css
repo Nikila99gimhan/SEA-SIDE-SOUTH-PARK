@@ -193,6 +193,7 @@ h1{
     font-size:22px;
   
   }
+
   td{
     line-height: 40px;
   
@@ -215,6 +216,46 @@ h1{
     background-color:darkred;
   }
   
+=======
+
+  .btn, 
+.btn:link,
+btn:visited{
+text-transform:uppercase;
+text-decoration:none;
+padding:1.5rem 4 rem;
+display:inline-block;
+border-radius:20rem;
+transition:all 0.2s;
+position:relative;
+font-size:25px;
+border:none;
+cursor:pointer;
+margin-top:5rem;
+background-color:#9b5a10;
+color:rgb(243, 239, 239);
+}
+
+.btn:hover{
+transform:treanlateY(-3px);
+box-shadow:0 1rem 2rem rgba(0,0,0,0.2);
+}
+
+.btn:active,
+.btn:focus{
+outline:none;
+transform:translateY(-1px);
+box-shadow:0 0.5rem 2rem rgba(0,0,0,0.2);
+}
+
+.mid-100
+{
+  width: 300px;
+  height: auto;
+}
+
+
+
 
 
 
