@@ -4,6 +4,8 @@
     overflow: hidden;
     width: 100%;
     float: right;
+    margin-top: -1px;
+    
   }
   
   /* Style the links inside the navigation bar */
@@ -171,6 +173,7 @@ margin: 0;
 padding-right: 100;
 box-sizing: content-box;
 font-family:'Poppins', sans-serif;
+padding-top: 1px;
 
 }
 
@@ -197,7 +200,7 @@ h1
 	font-size: 48px;
 	color: Black;
 	padding-left: 40px;
-	margin-top:1.5%;
+	margin-top:5.5%;
 }
 
 p
