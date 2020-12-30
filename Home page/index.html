@@ -40,11 +40,11 @@
       <header>
           <ul class="navi" >
               <li><a href="../Home page/index.html">Home</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Accomodation</a></li>
+              <li><a href="../contact/countact us.html">Contact Us</a></li>
+              <li><a href="../Accomadation/accomadation.html">Accomodation</a></li>
               <li><a href="../../SEA-SIDE-SOUTH-PARK/Login & Sign/login.html">Login & Sign UP</a></li>
-              <li><a href="">SPA</a></li>
-              <li><a href="#">Gallery</a></li>
+              <li><a href="../Spa/Spa.html">SPA</a></li>
+              <li><a href="../Gallery/Gallery.html">Gallery</a></li>
                 
              
               
@@ -53,7 +53,7 @@
           <div class="welcom-text">
             <img src="img/mainlogo.png" alt="" class="welcome-logo">
               <h1>A PLACE TO EXPERIENCE AND ENJOY THE LIFE</h1>
-                <button class="book-btn" onclick=" relocate_book()"><a class="book-link">BOOK YOUR STAY</a></button>
+                <button class="book-btn"  onclick="relocate_book()"><a class="book-link">BOOK YOUR STAY</a></button>
                   
 
           </div>
@@ -282,7 +282,7 @@ Luxury Treatments</h4>
                     <div class="lower-text">Experience unbelievable discounts and special hotel offers in Sri Lanka the next time you vacation with South Park. From direct booking deals to a host of other advantageous promotions, peruse our Special Offers page for the best deals in Island.</div>
                 </div>
                 <div class="link-box">
-                    <a href="packages.html" class="theme-btn btn-style-one"><span class="btn-title"><font face="Poppins">  Book Your Stay</font></span></a>
+                    <a href="../Booking/booking.html" class="theme-btn btn-style-one"><span class="btn-title"><font face="Poppins">  Book Your Stay</font></span></a>
                 </div>
             </div>
 
@@ -301,18 +301,18 @@ Luxury Treatments</h4>
                         <div class="offer-block">
                             <div class="offer-inner">
                                 <div class="fact-thumb wow zoomInStable" data-wow-delay="300ms" data-wow-duration="1500ms"><div class="image"><img src="https://cdn.pixabay.com/photo/2016/11/06/23/16/breakfast-1804436_1280.jpg" alt="" title=""></div><span>30% <br>off</span></div>
-                                <div class="price">Start From: <span>$50.00</span></div>
+                                <div class="price">Start From: <span>$30.00</span></div>
                                 <h4>Free Breakfast Package</h4>
-                                <div class="text">Excepteur sint occaecat cupidatat proi dent in sunt.</div>
+                                <div class="text">Enjoy a selection of multi cuisine meal packages to feed your whole family. Indulge in our exclusive meals encompassing the finest Sri Lankan, Indian, Chinese and Japanese cuisine. Alternatively, pick from an array of flavoursome seafood, scrumptious snack packs and more as we serve delectable food to suit your every mood..</div>
                                 <a href="package-single.html" class="over-link"></a>
                             </div>
                         </div>
                         <div class="offer-block">
                             <div class="offer-inner">
                                 <div class="fact-thumb wow zoomInStable" data-wow-delay="600ms" data-wow-duration="1500ms"><div class="image"><img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="" title=""></div><span>30% <br>off</span></div>
-                                <div class="price">Start From: <span>$50.00</span></div>
+                                <div class="price">Start From: <span>$40.00</span></div>
                                 <h4>Facial Treatments</h4>
-                                <div class="text">Excepteur sint occaecat cupidatat proi dent in sunt.</div>
+                                <div class="text">Radiate your skin with nourishing facial treatments that refresh and revitalise.</div>
                                 <a href="package-single.html" class="over-link"></a>
                             </div>
                         </div>
@@ -358,12 +358,12 @@ Luxury Treatments</h4>
                          <div class="col-md-3 col-sm-6 col-xs-12 segment-two md-mb-30 sm-mb-30">
                             <h2>Useful links</h2>
                             <ul>
-                                <li><a href="#">Book Your Stay</a></li>
-                                <li><a href="#">Contac US</a></li>
-                                <li><a href="#">Accomodation</a></li>
-                                <li><a href="#">SPA</a></li>
-                                <li><a href="#">Login</a></li>
-                                <li><a href="#">Gallery</a></li>
+                                <li><a href="../Booking/booking.html">Book Your Stay</a></li>
+                                <li><a href="../contact/countact us.html">Contac US</a></li>
+                                <li><a href="../Accomadation/accomadation.html">Accomodation</a></li>
+                                <li><a href="../Spa/Spa.html">SPA</a></li>
+                                <li><a href="../Login & Sign/login.html">Login</a></li>
+                                <li><a href="../Gallery/Gallery.html">Gallery</a></li>
                                 
                             </ul>
                         </div>
@@ -394,7 +394,7 @@ Luxury Treatments</h4>
                      </div>
                  </div>
              </div>
-             <p class="footer-bottom-tex"> All Right reserved by &copy;WebMINES.2020</p>
+             <p class="footer-bottom-tex"> All Right reserved by &copy;SouthPark 2020</p>
          </footer>
      </div>
          
@@ -403,6 +403,12 @@ Luxury Treatments</h4>
    
      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
      <script>
+       function relocate_book()
+       {
+         location.href = "../Booking/booking.html";
+       }
+
+
        AOS.init();
      </script>
     
