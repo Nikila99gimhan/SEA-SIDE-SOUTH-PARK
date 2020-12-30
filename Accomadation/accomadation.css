@@ -36,6 +36,10 @@
     margin-top: -7px;
     float: left;
 }
+body
+{
+  padding-top: 0.1px;
+}
 
 
 
