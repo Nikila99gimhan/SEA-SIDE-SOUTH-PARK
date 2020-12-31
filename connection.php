@@ -2,7 +2,7 @@
 $sever ="localhost";
 $username ="root";
 $password ="";
-$database ="HotelDB";
+$database ="hoteldb";
 
 
 //connection to the sever and select database
