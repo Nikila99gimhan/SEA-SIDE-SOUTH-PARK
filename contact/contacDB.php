@@ -11,7 +11,7 @@ $country =$_POST['country'];
 
 //query
 
-$qry = "INSERT INTO contac VALUES  ('$fname','$lname','$country','$$massage')";
+$qry = "INSERT INTO contact VALUES  ('$fname','$lname','$country','$$massage')";
 $result =mysqli_query($con,$qry);
 
 if ($result ==true)
